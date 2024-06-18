@@ -55,6 +55,22 @@ Comparação e Atualização:
 Resultado Final:
 
 * Após iterar sobre todas as características, obtém-se o conjunto final das melhores características e a melhor pontuação de F1-Score, proporcionando uma seleção eficiente e balanceada.
+
+### Configuração de ambiente
+
+Versão do python utilizada: 3.12
+```
+pip install numpy
+pip install pandas
+pip install shap
+pip install xgboost
+pip install scikit-learn
+```
+Para manipular o arquivo .parquet sugiro: 
+```
+pip install fastparquet
+```
+
 ### Aplicações
 O IWSHAP é particularmente útil para a detecção de intrusões em redes CAN, onde a eficiência computacional e a precisão são críticas. A combinação dos valores SHAP com o IWSS permite uma seleção de características que melhora a performance do modelo de classificação enquanto reduz o consumo de recursos.
 
