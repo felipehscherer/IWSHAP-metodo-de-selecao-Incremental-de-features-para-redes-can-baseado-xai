@@ -9,9 +9,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
 from sklearn.preprocessing import LabelEncoder
 
-# ssh idscps@200.156.91.194 -p 2289
-# sftp -P 2289 idscps@200.156.91.194
-
 # Instanciar o codificador
 encoder = LabelEncoder()
 
