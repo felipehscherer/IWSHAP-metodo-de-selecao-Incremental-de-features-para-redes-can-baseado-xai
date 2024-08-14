@@ -52,7 +52,7 @@ feature_importance_df = feature_importance_df.sort_values(by='importance', ascen
 
 for i in range(1, 688):
     print("rodada ", i)
-    # Selecionar as features mais importantes (por exemplo, as top 10 mais importantes)
+    # Selecionar as features mais importantes 
     top_features = feature_importance_df['feature'].head(i).tolist()
 
     print(top_features)
